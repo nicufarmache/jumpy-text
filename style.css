@@ -16,7 +16,7 @@ body {
 
 .text {
   font-family: 'Amstelvar', sans-serif;
-  font-size: min(70vh, 30vw);
+  font-size: min(70vh, 20vw);
   transition: all 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
 
   font-variation-settings:
