@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Amstelvar';
+    src: url('Amstelvar-Roman[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,wdth,wght,opsz].ttf')  format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+  background-color: hsl(var(--setting-n13, 0), 30%, 20%);
+  color: hsl(var(--setting-n14, 90), 30%, 90%);
+}
+
+.text {
+  font-family: 'Amstelvar', sans-serif;
+  font-size: min(70vh, 40vw);
+  transition: all 0.3s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+  font-variation-settings:
+    "wght" var(--setting-n1, 400),
+    "wdth" var(--setting-n2, 100),
+    "opsz" var(--setting-n3, 14),
+    "GRAD" var(--setting-n4, 0),
+    "XTRA" var(--setting-n5, 562),
+    "XOPQ" var(--setting-n6, 176),
+    "YOPQ" var(--setting-n7, 124),
+    "YTLC" var(--setting-n8, 500),
+    "YTUC" var(--setting-n9, 750),
+    "YTAS" var(--setting-n10, 767),
+    "YTDE" var(--setting-n11, -240),
+    "YTFI" var(--setting-n12, 760)
+}
